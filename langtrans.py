@@ -1,7 +1,7 @@
 from tkinter import *
 import tkinter as tk
 from tkinter import ttk
-from googletrans import Translator #pip install googletrans==3.1.0a0
+from googletrans import Translator
 from tkinter import messagebox
 
 root = tk.Tk()
