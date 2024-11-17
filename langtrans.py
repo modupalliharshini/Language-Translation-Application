@@ -32,14 +32,8 @@ def clear():
 
 a = tk.StringVar()
 
-auto_select = ttk.Combobox(frame1, width=27, textvariable= a, state='randomly', font=('verdana', 10, 'bold'))
-
-auto_select['values'] = (
-                            'Auto Select',
-                        )
-
-auto_select.place(x=15, y=60)
-auto_select.current(0)                       
+text_label = ttk.Label(frame1, text="Enter the text below", font=('verdana', 10, 'bold'))
+text_label.place(x=15, y=60)                       
 
 l = tk.StringVar()
 choose_language = ttk.Combobox(frame1, width=27, textvariable=l, state='randomly', font=('verdana', 10, 'bold'))
